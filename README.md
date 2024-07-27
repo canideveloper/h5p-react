@@ -2,8 +2,8 @@
 
 This package contains React components that are meant to be used with rendering [H5P](https://h5p.org/) Editor and Player while implmenting [Wellms.io](https://www.wellms.io/) Admin Panel and bespoke frontend.
 
-![npm](https://img.shields.io/npm/v/@escolalms/h5p-react)
-![npm](https://img.shields.io/npm/dm/@escolalms/h5p-react)
+![npm](https://img.shields.io/npm/v/@cani/h5p-react)
+![npm](https://img.shields.io/npm/dm/@cani/h5p-react)
 [![Generate TypeScript Documentation](https://github.com/EscolaLMS/H5P-player/actions/workflows/ts-doc.yml/badge.svg)](https://github.com/EscolaLMS/H5P-player/actions/workflows/ts-doc.yml)
 [![Typescript check](https://github.com/EscolaLMS/H5P-player/actions/workflows/tsc.yml/badge.svg)](https://github.com/EscolaLMS/H5P-player/actions/workflows/tsc.yml)
 
@@ -24,7 +24,7 @@ import {
   EditorSettings,
   H5PEditorContent,
   ContextlessEditor as Editor,
-} from "@escolalms/h5p-react";
+} from "@cani/h5p-react";
 
 const LANG = "en";
 const API_URL = "/api";
@@ -125,7 +125,7 @@ import { useParams } from "react-router-dom";
 import {
   EditorSettings,
   ContextlessPlayer as Player,
-} from "@escolalms/h5p-react";
+} from "@cani/h5p-react";
 
 const LANG = "en";
 const API_URL = "/api";
@@ -195,7 +195,7 @@ export default page;
 
 ## Documentation
 
-Generated TS Doc is available at [https://escolalms.github.io/H5P-player/](https://escolalms.github.io/H5P-player/).
+Generated TS Doc is available at [https://cani.github.io/H5P-player/](https://cani.github.io/H5P-player/).
 
 ### TypeScript definitions
 

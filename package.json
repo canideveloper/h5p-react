@@ -1,5 +1,5 @@
 {
-  "name": "@escolalms/h5p-react",
+  "name": "@cani/h5p-react",
   "version": "0.2.19",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
